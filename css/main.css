@@ -159,6 +159,7 @@ header nav ul li a {
 footer {
   background: #2d314d;
   color: white;
+  font-size: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,6 +178,9 @@ footer #company {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer #company #social {
@@ -218,7 +222,7 @@ footer #company #navigation {
 }
 
 footer #company #navigation li {
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
 footer #copyright {

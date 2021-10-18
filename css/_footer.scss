@@ -1,6 +1,7 @@
 footer{
     background: $DarkBlue;
     color: $White;
+    font-size: 16px;
 
     display: flex;
     justify-content: space-between;
@@ -9,6 +10,7 @@ footer{
     #company{
         flex: 2;
         display: flex;
+        align-items: center;
         #social{
             display: flex;
             flex-direction: column;
@@ -30,7 +32,7 @@ footer{
             display: flex;
             justify-content: space-between;
             li{
-                margin: 10px 0px;
+                margin: 15px 0px;
             }
         }
     }
