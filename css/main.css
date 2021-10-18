@@ -24,6 +24,10 @@ a {
   color: inherit;
 }
 
+p {
+  color: #9698a6;
+}
+
 @media (max-width: 900px) {
   body {
     font-size: 17px;
@@ -59,7 +63,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
 header nav ul li a {
@@ -102,8 +106,8 @@ main div {
 }
 
 main div h1 {
-  font-weight: 400;
-  font-size: 50px;
+  font-weight: 300;
+  font-size: 60px;
 }
 
 main div p {
