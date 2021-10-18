@@ -18,7 +18,7 @@ $White: hsl(0, 0%, 100%);
 }
 
 body{
-    font-size: 17px;
+    font-size: 16px;
     background: $VeryLightGray;
     width: 100%;
     color: $DarkBlue;
@@ -31,7 +31,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: $DarkBlue;
+    color: inherit;
 }
 
 @media (max-width:900px){

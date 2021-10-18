@@ -1,8 +1,28 @@
 header{
     background: $White;
+    padding: 20px 6%;
 
     nav{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+
+        ul{
+            display: flex;
+
+            li{
+                margin:0px 20px;
+
+                a{
+                    color: hsl(233, 8%, 62%);
+                }
+            }
+        }
+
+        #invite{
+            background: linear-gradient(left,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
+            padding: 10px 30px;
+            border-radius: 20px;
+        }
     }
 }
