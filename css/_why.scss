@@ -25,3 +25,28 @@
         }
     }
 }
+
+@media (max-width:900px){
+    #why-us{
+        text-align: center;
+        h2{
+        }
+        p{
+            width: 100%;
+        }
+    
+        #container{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+
+            flex-direction: column;
+    
+            .box{
+                // border: 1px solid gray;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
