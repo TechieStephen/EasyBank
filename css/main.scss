@@ -30,9 +30,22 @@ main{
 
     div{
         width: 40%;
-    }
-    h1{
-        font-weight: 400;
-        font-size: 50px;
+        // display: flex;
+        // flex-direction: column;
+        
+        h1{
+            font-weight: 400;
+            font-size: 50px;
+        }
+        p{
+            margin: 30px 0px;
+        }
+        #invite{
+            display: inline-block;
+            background: linear-gradient(left,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
+            padding: 10px 30px;
+            border-radius: 20px;
+            color: $White;
+        }
     }
 }

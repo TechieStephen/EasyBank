@@ -71,6 +71,7 @@ header nav #invite {
   background: linear-gradient(left, #31d35c, #2bb7da);
   padding: 10px 30px;
   border-radius: 20px;
+  color: white;
 }
 
 #bg-image {
@@ -100,8 +101,21 @@ main div {
   width: 40%;
 }
 
-main h1 {
+main div h1 {
   font-weight: 400;
   font-size: 50px;
+}
+
+main div p {
+  margin: 30px 0px;
+}
+
+main div #invite {
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(left, #31d35c, #2bb7da);
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
