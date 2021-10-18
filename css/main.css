@@ -96,6 +96,10 @@ header nav ul li a:hover::before {
   background: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
+header #menu-bar {
+  display: none;
+}
+
 @media (max-width: 900px) {
   header #invite {
     display: none;
@@ -125,6 +129,7 @@ header nav ul li a:hover::before {
             flex-direction: column;
     background: white;
     width: 90%;
+    margin: 0px auto;
     padding: 20px;
   }
   header nav ul li {
@@ -135,6 +140,10 @@ header nav ul li a:hover::before {
     color: #2d314d;
     padding: 15px 30px;
     font-size: 16px;
+    font-weight: 700;
+  }
+  header #menu-bar {
+    display: block;
   }
 }
 

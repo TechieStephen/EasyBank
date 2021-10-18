@@ -40,6 +40,10 @@ header{
             }
         }
     }
+
+    #menu-bar{
+        display: none;
+    }
 }
 
 
@@ -66,6 +70,7 @@ header{
                 flex-direction: column;
                 background: $White;
                 width: 90%;
+                margin: 0px auto;
                 padding: 20px;
 
                 li{
@@ -76,9 +81,14 @@ header{
                         color: $DarkBlue;
                         padding: 15px 30px;
                         font-size: 16px;
+                        font-weight: 700;
                     }
                 }
             }
+        }
+
+        #menu-bar{
+            display: block;
         }
     }
     
