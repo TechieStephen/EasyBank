@@ -4,12 +4,20 @@
 @import "./latest";
 @import "./footer";
 
-#bg-image{
+#bg-image-desktop{
     position: absolute;
     top: -110px;
     right: -180px;
     z-index: 1;
     width: 70%;
+}
+#bg-image-mobile{
+    position: absolute;
+    top: -110px;
+    right: -180px;
+    z-index: 1;
+    width: 70%;
+    display: none;
 }
 #bg-mobile{
     position: absolute;
@@ -33,6 +41,44 @@ main{
         h1{
             font-weight: 300;
             font-size: 60px;
+        }
+    }
+}
+@media (max-width:900px){
+    #bg-image-desktop{
+        position: absolute;
+        top: -110px;
+        right: -180px;
+        z-index: 1;
+        width: 70%;
+        display: none;
+    }
+    #bg-image-mobile{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 1;
+        width: 100%;
+        display: block;
+    }
+    main{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 200px;
+        text-align: center;
+
+    
+        div{
+            width: 100%;
+            // display: flex;
+            // flex-direction: column;
+            
+            h1{
+                z-index: 3;
+                font-weight: 300;
+                font-size: 50px;
+            }
         }
     }
 }
