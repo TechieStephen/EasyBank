@@ -509,7 +509,7 @@ main div h1 {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: center;
-    min-height: 80vh;
+    min-height: 60vh;
   }
   main div {
     width: 100%;
