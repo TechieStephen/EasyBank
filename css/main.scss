@@ -69,6 +69,22 @@ main{
       }
     }
 }
+#invite{
+    background: linear-gradient(left,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: $White;
+    display: inline-block;
+}
+
+#invite:hover{
+    opacity: .6;
+}
+img{
+    pointer-events: none;
+}
+
+
 @media (max-width:900px){
     #bg-image-desktop{
         display: none;
@@ -94,24 +110,9 @@ main{
             margin-top: 40px;
             
             h1{
-                font-weight: 700;
+                font-weight: 400;
                 font-size: 40px;
             }
         }
     }
-}
-
-#invite{
-    background: linear-gradient(left,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
-    padding: 10px 30px;
-    border-radius: 20px;
-    color: $White;
-    display: inline-block;
-}
-
-#invite:hover{
-    opacity: .6;
-}
-img{
-    pointer-events: none;
 }

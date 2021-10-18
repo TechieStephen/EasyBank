@@ -526,6 +526,23 @@ main div h1 {
   color: #2d314d;
 }
 
+#invite {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(left, #31d35c, #2bb7da);
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  display: inline-block;
+}
+
+#invite:hover {
+  opacity: .6;
+}
+
+img {
+  pointer-events: none;
+}
+
 @media (max-width: 900px) {
   #bg-image-desktop {
     display: none;
@@ -555,25 +572,8 @@ main div h1 {
     margin-top: 40px;
   }
   main div h1 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
   }
-}
-
-#invite {
-  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
-  background: linear-gradient(left, #31d35c, #2bb7da);
-  padding: 10px 30px;
-  border-radius: 20px;
-  color: white;
-  display: inline-block;
-}
-
-#invite:hover {
-  opacity: .6;
-}
-
-img {
-  pointer-events: none;
 }
 /*# sourceMappingURL=main.css.map */
