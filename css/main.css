@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 section, footer {
   padding: 70px 6%;
 }
@@ -488,7 +492,7 @@ main div h1 {
 }
 
 main div .invite {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .attribution {
