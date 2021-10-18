@@ -28,6 +28,7 @@ main{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 20px;
 
     div{
         width: 40%;
@@ -106,6 +107,8 @@ img{
         align-items: flex-start;
         text-align: center;
         min-height: 60vh;
+        margin-top: 0px;
+
 
         div{
             width: 100%;

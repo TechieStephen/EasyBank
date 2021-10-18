@@ -480,6 +480,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 main div {
@@ -574,6 +575,7 @@ img {
             align-items: flex-start;
     text-align: center;
     min-height: 60vh;
+    margin-top: 0px;
   }
   main div {
     width: 100%;
