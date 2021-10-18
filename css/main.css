@@ -442,11 +442,7 @@ footer #copyright span {
 }
 
 #bg-image-mobile {
-  position: absolute;
-  top: -110px;
-  right: -180px;
-  z-index: 1;
-  width: 70%;
+  width: 100%;
   display: none;
 }
 
@@ -460,7 +456,7 @@ footer #copyright span {
 
 main {
   padding: 0px 6%;
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,41 +479,35 @@ main div h1 {
 
 @media (max-width: 900px) {
   #bg-image-desktop {
-    position: absolute;
-    top: -110px;
-    right: -180px;
-    z-index: 1;
-    width: 70%;
     display: none;
   }
   #bg-image-mobile {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: 1;
-    width: 100%;
+    width: 110%;
     display: block;
   }
+  #bg-mobile {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 100%;
+  }
   main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     text-align: center;
+    min-height: 80vh;
   }
   main div {
     width: 100%;
+    margin-top: 40px;
   }
   main div h1 {
-    z-index: 3;
-    font-weight: 300;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 35px;
   }
 }
 
