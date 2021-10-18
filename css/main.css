@@ -489,7 +489,7 @@ main div h1 {
 
 .attribution {
   text-align: center;
-  padding: 10px 5%;
+  padding: 20px 5%;
   font-size: 15px;
 }
 
@@ -503,11 +503,9 @@ main div h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 10px;
 }
 
 .attribution ul li {
-  padding: 5px;
   margin: 0px 10px;
 }
 
@@ -516,7 +514,11 @@ main div h1 {
 }
 
 .attribution ul li a i {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.attribution p {
+  margin: 5px;
 }
 
 .attribution p a {
