@@ -20,8 +20,12 @@
                 span{
                    font-size: 13px;
                 }
-                h4{
+                a{
+                    display: block;
                     margin: 15px 0px;
+                }
+                a:hover{
+                    color: $LimeGreen;
                 }
                 p{
                     font-size: 15px;

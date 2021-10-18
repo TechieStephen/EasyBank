@@ -6,10 +6,10 @@
 
 #bg-image{
     position: absolute;
-    top: 0;
+    top: -110px;
     right: -180px;
     z-index: 1;
-    width: 60%;
+    width: 70%;
 }
 #bg-mobile{
     position: absolute;
@@ -43,4 +43,8 @@ main{
     border-radius: 20px;
     color: $White;
     display: inline-block;
+}
+
+#invite:hover{
+    opacity: .6;
 }

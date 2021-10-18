@@ -148,8 +148,13 @@ header nav ul li a {
   font-size: 13px;
 }
 
-#latest #container .box div h4 {
+#latest #container .box div a {
+  display: block;
   margin: 15px 0px;
+}
+
+#latest #container .box div a:hover {
+  color: #31d35c;
 }
 
 #latest #container .box div p {
@@ -237,10 +242,10 @@ footer #copyright span {
 
 #bg-image {
   position: absolute;
-  top: 0;
+  top: -110px;
   right: -180px;
   z-index: 1;
-  width: 60%;
+  width: 70%;
 }
 
 #bg-mobile {
@@ -281,5 +286,9 @@ main div h1 {
   border-radius: 20px;
   color: white;
   display: inline-block;
+}
+
+#invite:hover {
+  opacity: .6;
 }
 /*# sourceMappingURL=main.css.map */
