@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
+section {
+  padding: 70px 6%;
+}
+
 @media (max-width: 900px) {
   body {
     font-size: 17px;
@@ -86,7 +90,6 @@ header nav #invite {
 
 #why-us {
   background: #f3f4f6;
-  padding: 70px 6%;
   min-height: 80vh;
 }
 
