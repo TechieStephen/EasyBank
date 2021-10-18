@@ -56,9 +56,6 @@ header {
   left: 0;
   width: 100%;
   z-index: 10;
-}
-
-header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,6 +107,12 @@ header nav ul li a:hover::before {
     z-index: 2;
   }
   header nav {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background: white;
+  }
+  header nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -119,11 +122,6 @@ header nav ul li a:hover::before {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   header nav ul li {
     margin: 0px 10px;
