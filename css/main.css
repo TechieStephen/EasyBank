@@ -98,6 +98,7 @@ header nav ul li a:hover::before {
 
 header #menu-bar {
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {
