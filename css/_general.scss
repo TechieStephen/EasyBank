@@ -39,7 +39,9 @@ p{
     color: $GrayishBlue;
     line-height: 22px;
 }
-
+span{
+    color: $GrayishBlue;
+}
 h1, h2, h3, h4, h5{
     font-weight: 400;
 }
@@ -47,7 +49,6 @@ h1, h2, h3, h4, h5{
 section{
     padding: 70px 6%;
 }
-
 @media (max-width:900px){
     body{
         font-size: 17px;
