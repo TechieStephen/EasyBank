@@ -82,7 +82,7 @@ header nav #invite {
 #why-us {
   background: #f3f4f6;
   padding: 50px 6%;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 #why-us h2 {
