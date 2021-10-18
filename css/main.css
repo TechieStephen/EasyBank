@@ -116,7 +116,7 @@ header #menu {
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100vh;
-    padding: 10%;
+    padding: 10% 0px;
     display: none;
   }
   header nav ul {
@@ -134,9 +134,10 @@ header #menu {
         -ms-flex-direction: column;
             flex-direction: column;
     background: white;
-    width: 90%;
+    width: 93%;
     margin: 0px auto;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 10px;
   }
   header nav ul li {
     margin: 10px 0px;
