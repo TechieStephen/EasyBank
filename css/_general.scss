@@ -33,7 +33,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
 p{
+    margin: 30px 0px;
     color: $GrayishBlue;
 }
 @media (max-width:900px){

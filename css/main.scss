@@ -1,5 +1,6 @@
 @import "./general";
 @import "./header";
+@import "./why";
 
 #bg-image{
     position: absolute;
@@ -21,8 +22,8 @@
     // }
 }
 main{
-    background: hsl(0, 0%, 98%);
-    padding: 20px 6%;
+    background: $VeryLightGray;
+    padding: 0px 6%;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -36,9 +37,6 @@ main{
         h1{
             font-weight: 300;
             font-size: 60px;
-        }
-        p{
-            margin: 30px 0px;
         }
         #invite{
             display: inline-block;
