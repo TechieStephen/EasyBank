@@ -37,7 +37,7 @@ main{
             font-size: 60px;
         }
 
-        #invite{
+        .invite{
             margin-top: 30px;
         }
     }
@@ -71,7 +71,7 @@ main{
       }
     }
 }
-#invite{
+.invite{
     background: linear-gradient(left,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
     padding: 12px 30px;
     border-radius: 20px;
@@ -79,7 +79,7 @@ main{
     display: inline-block;
 }
 
-#invite:hover{
+.invite:hover{
     opacity: .6;
 }
 img{
