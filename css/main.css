@@ -165,7 +165,7 @@ header #menu {
   width: 50%;
 }
 
-#why-us #container {
+#why-us .container {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,15 +175,15 @@ header #menu {
           justify-content: space-between;
 }
 
-#why-us #container .box {
+#why-us .container .box {
   width: 23%;
 }
 
-#why-us #container .box h3 {
+#why-us .container .box h3 {
   margin: 20px 0px;
 }
 
-#why-us #container .box p {
+#why-us .container .box p {
   font-size: 15px;
   width: 100%;
   margin: 0;
@@ -196,7 +196,7 @@ header #menu {
   #why-us p {
     width: 100%;
   }
-  #why-us #container {
+  #why-us .container {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -209,7 +209,7 @@ header #menu {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #why-us #container .box {
+  #why-us .container .box {
     width: 100%;
     margin-bottom: 30px;
   }
