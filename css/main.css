@@ -8,7 +8,7 @@
 }
 
 body {
-  font-size: 18px;
+  font-size: 17px;
   background: #fafafa;
   width: 100%;
   color: #2d314d;
@@ -25,8 +25,13 @@ a {
 }
 
 p {
-  margin: 30px 0px;
+  margin: 20px 0px;
   color: #9698a6;
+  line-height: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
 }
 
 @media (max-width: 900px) {
@@ -81,16 +86,38 @@ header nav #invite {
 
 #why-us {
   background: #f3f4f6;
-  padding: 50px 6%;
+  padding: 70px 6%;
   min-height: 80vh;
 }
 
-#why-us h2 {
-  font-weight: 400;
+#why-us p {
+  width: 50%;
 }
 
-#why-us p {
-  width: 60%;
+#why-us #container {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#why-us #container .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#why-us #container .box h3 {
+  margin: 20px 0px;
+}
+
+#why-us #container .box p {
+  font-size: 15px;
+  width: 100%;
+  margin: 0;
 }
 
 #bg-image {
@@ -102,7 +129,6 @@ header nav #invite {
 }
 
 main {
-  background: #fafafa;
   padding: 0px 6%;
   height: 100vh;
   display: -webkit-box;

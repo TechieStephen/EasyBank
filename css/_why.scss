@@ -1,13 +1,31 @@
 #why-us{
     background: $LightGrayishBlue;
-    padding: 50px 6%;
+    padding: 70px 6%;
 
     min-height: 80vh;
 
     h2{
-        font-weight: 400;
     }
     p{
-        width: 60%;
+        width: 50%;
+    }
+
+    #container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .box{
+            flex: 1;
+            // border: 1px solid gray;
+            h3{
+                margin: 20px 0px;
+            }
+            p{
+                font-size: 15px;
+                width: 100%;
+                margin: 0;
+            }
+        }
     }
 }
