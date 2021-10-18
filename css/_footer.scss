@@ -11,7 +11,19 @@ footer{
         display: flex;
         #social{
             display: flex;
+            flex-direction: column;
             width: 30%;
+
+            ul{
+                margin-top: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                li{
+                    margin-right: 20px;
+                }
+            }
         }
         #navigation{
             width: 40%;
@@ -28,7 +40,7 @@ footer{
 
         span{
             display: block;
-            margin-top: 20px;;
+            margin-top: 30px;;
         }
     }
 }

@@ -183,7 +183,28 @@ footer #company #social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 30%;
+}
+
+footer #company #social ul {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer #company #social ul li {
+  margin-right: 20px;
 }
 
 footer #company #navigation {
@@ -206,7 +227,7 @@ footer #copyright {
 
 footer #copyright span {
   display: block;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #bg-image {
