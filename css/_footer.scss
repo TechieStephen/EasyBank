@@ -58,3 +58,66 @@ footer{
         }
     }
 }
+
+
+
+@media (max-width:900px){
+    footer{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        #company{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            #social{
+                flex-direction: column;
+                width: 100%;
+    
+                ul{
+                    margin-top: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    li{
+                        a:hover{
+                            svg{
+                                path{
+                                    fill: $LimeGreen;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #navigation{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 30px 0px;
+                li{
+                    margin: 0px 0px;
+                    margin-bottom: 15px;
+    
+                    a:hover{
+                        color: $LimeGreen;
+                    }
+                }
+            }
+        }
+    
+        #copyright{
+            text-align: center;
+    
+            span{
+                margin-top: 30px;
+            }
+        }
+    }
+    
+    
+}
