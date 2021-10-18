@@ -12,6 +12,7 @@ body {
   background: #fafafa;
   width: 100%;
   color: #2d314d;
+  overflow-x: hidden;
 }
 
 ul {
@@ -65,5 +66,13 @@ header nav #invite {
   background: linear-gradient(left, #31d35c, #2bb7da);
   padding: 10px 30px;
   border-radius: 20px;
+}
+
+#bg-image {
+  position: absolute;
+  top: 0;
+  right: -180px;
+  z-index: -1;
+  width: 60%;
 }
 /*# sourceMappingURL=main.css.map */
