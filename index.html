@@ -24,7 +24,7 @@
     <a href="#" id="logo">
       <img src="images/logo.svg" alt="">
     </a>
-    <nav>      
+    <nav id="nav-menu">      
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -203,11 +203,26 @@
     
   </footer>
 
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script>
+    const menu = document.getElementById("menu-bar")
+    const nav = document.getElementById("nav-menu")
+
+    menu.addEventListener('click', ()=>{
+      nav.classList.toggle('toggle-nav')
+      if(nav.classList.contains('toggle-nav')){
+          menu.style.transform = 'rotate(180deg)'
+          menu.src = "images/icon-close.svg"
+      }else{
+        menu.src = "images/icon-hamburger.svg"
+      }
+      console.log(nav.classList.contains('toggle-nav'))
+    })
+  </script>
 </body>
 
 </html>
