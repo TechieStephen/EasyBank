@@ -24,6 +24,14 @@ footer{
 
                 li{
                     margin-right: 20px;
+
+                    a:hover{
+                        svg{
+                            path{
+                                fill: $LimeGreen;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -33,6 +41,10 @@ footer{
             justify-content: space-between;
             li{
                 margin: 15px 0px;
+
+                a:hover{
+                    color: $LimeGreen;
+                }
             }
         }
     }
