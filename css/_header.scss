@@ -19,7 +19,7 @@ header{
                 border: none;
 
                 a{
-                    color: hsl(233, 8%, 62%);
+                    color: $GrayishBlue;
                     padding: 20px 0px;
                     position: relative;
 
@@ -53,10 +53,14 @@ header{
         left: 0;
         width: 100%;
         z-index: 2;
+
+        #invite{
+            display: none;
+        }
     
         nav{
             position: absolute;
-            top: 100px;
+            top: 60px;
             left: 0px;
             background: rgba(0, 0, 0, 0.5);
             width: 100%;
@@ -70,31 +74,16 @@ header{
                 flex-direction: column;
                 background: $White;
                 width: 90%;
-                margin: 5;
+                padding: 20px;
 
-    
                 li{
-                    margin:0px 10px;
+                    margin:3px 0px;
                     border: none;
+                    padding: 5px;
     
                     a{
-                        color: hsl(233, 8%, 62%);
-                        padding: 20px 0px;
-                        position: relative;
-    
-                        &:hover{
-                            &::before{
-                                content: "";
-                                position: absolute;
-                                right: 0; 
-                                bottom: -10px;
-                                width: 100%;
-                                height: 8px;
-                                z-index: -1;
-                                // border-radius: 10px;
-                                background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
-                            }
-                        }
+                        color: $DarkBlue;
+                        padding: 15px 0px;
                     }
                 }
             }

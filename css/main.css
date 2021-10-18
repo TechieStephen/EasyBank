@@ -106,9 +106,12 @@ header nav ul li a:hover::before {
     width: 100%;
     z-index: 2;
   }
+  header #invite {
+    display: none;
+  }
   header nav {
     position: absolute;
-    top: 100px;
+    top: 60px;
     left: 0px;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -131,27 +134,16 @@ header nav ul li a:hover::before {
             flex-direction: column;
     background: white;
     width: 90%;
-    margin: 5;
+    padding: 20px;
   }
   header nav ul li {
-    margin: 0px 10px;
+    margin: 3px 0px;
     border: none;
+    padding: 5px;
   }
   header nav ul li a {
-    color: #9698a6;
-    padding: 20px 0px;
-    position: relative;
-  }
-  header nav ul li a:hover::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-    width: 100%;
-    height: 8px;
-    z-index: -1;
-    background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
-    background: linear-gradient(to right, #31d35c, #2bb7da);
+    color: #2d314d;
+    padding: 15px 0px;
   }
 }
 
