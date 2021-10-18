@@ -55,16 +55,17 @@ main{
         a{
           font-size: 16px;
           i{
-            font-size: 25px;
+            font-size: 30px;
           }
         }
       }
     }
   
     p{
-        margin: 5px;
+        margin: 10px;
       a{
         font-weight: bold;
+        color: $DarkBlue;
       }
     }
 }

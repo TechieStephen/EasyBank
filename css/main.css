@@ -514,15 +514,16 @@ main div h1 {
 }
 
 .attribution ul li a i {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .attribution p {
-  margin: 5px;
+  margin: 10px;
 }
 
 .attribution p a {
   font-weight: bold;
+  color: #2d314d;
 }
 
 @media (max-width: 900px) {
