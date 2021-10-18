@@ -96,7 +96,7 @@ header nav ul li a:hover::before {
   background: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
-header #menu-bar {
+header #menu {
   display: none;
   cursor: pointer;
 }
@@ -147,7 +147,7 @@ header #menu-bar {
   header nav.toggle-nav {
     display: block;
   }
-  header #menu-bar {
+  header #menu {
     display: block;
   }
 }
@@ -527,5 +527,9 @@ main div h1 {
 
 #invite:hover {
   opacity: .6;
+}
+
+img {
+  pointer-events: none;
 }
 /*# sourceMappingURL=main.css.map */
