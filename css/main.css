@@ -8,7 +8,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   background: #fafafa;
   width: 100%;
   color: #2d314d;
@@ -72,7 +72,31 @@ header nav #invite {
   position: absolute;
   top: 0;
   right: -180px;
-  z-index: -1;
+  z-index: 1;
   width: 60%;
+}
+
+main {
+  background: #fafafa;
+  padding: 20px 6%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div {
+  width: 40%;
+}
+
+main h1 {
+  font-weight: 400;
+  font-size: 50px;
 }
 /*# sourceMappingURL=main.css.map */
