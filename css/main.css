@@ -487,6 +487,42 @@ main div h1 {
   font-size: 60px;
 }
 
+.attribution {
+  text-align: center;
+  padding: 10px 5%;
+  font-size: 15px;
+}
+
+.attribution ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.attribution ul li {
+  padding: 5px;
+  margin: 0px 10px;
+}
+
+.attribution ul li a {
+  font-size: 16px;
+}
+
+.attribution ul li a i {
+  font-size: 30px;
+}
+
+.attribution p a {
+  font-weight: bold;
+}
+
 @media (max-width: 900px) {
   #bg-image-desktop {
     display: none;

@@ -40,6 +40,35 @@ main{
         }
     }
 }
+.attribution{
+    text-align: center;
+    padding: 10px 5%;
+    font-size: 15px;
+  
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+  
+      li{
+        padding: 5px;
+        margin: 0px 10px;
+        a{
+          font-size: 16px;
+          i{
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  
+    p{
+      a{
+        font-weight: bold;
+      }
+    }
+}
 @media (max-width:900px){
     #bg-image-desktop{
         display: none;
