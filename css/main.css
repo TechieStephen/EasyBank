@@ -164,6 +164,11 @@ header nav #invite {
   margin: 0;
 }
 
+footer {
+  background: #2d314d;
+  color: white;
+}
+
 #bg-image {
   position: absolute;
   top: 0;
