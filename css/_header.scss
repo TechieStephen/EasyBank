@@ -59,8 +59,8 @@ header{
         }
     
         nav{
-            position: absolute;
-            top: 60px;
+            position: fixed;
+            top: 63px;
             left: 0px;
             background: rgba(0, 0, 0, 0.5);
             width: 100%;
@@ -84,6 +84,7 @@ header{
                     a{
                         color: $DarkBlue;
                         padding: 15px 0px;
+                        font-size: 16px;
                     }
                 }
             }
