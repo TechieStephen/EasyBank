@@ -103,9 +103,7 @@ header nav ul li a {
 }
 
 #why-us #container .box {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  width: 23%;
 }
 
 #why-us #container .box h3 {
@@ -243,6 +241,14 @@ footer #copyright span {
   right: -180px;
   z-index: 1;
   width: 60%;
+}
+
+#bg-mobile {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  z-index: 1;
+  width: 50%;
 }
 
 main {
