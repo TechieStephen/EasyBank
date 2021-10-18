@@ -1,4 +1,19 @@
 footer{
     background: $DarkBlue;
     color: $White;
+
+    display: flex;
+    justify-content: space-between;
+    
+    #social{
+        display: flex;
+        flex-direction: column;
+    }
+    #navigation{
+        display: flex;
+    }
+
+    div{
+        flex: 1;
+    }
 }
