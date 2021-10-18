@@ -487,6 +487,10 @@ main div h1 {
   font-size: 60px;
 }
 
+main div #invite {
+  margin-top: 30px;
+}
+
 .attribution {
   text-align: center;
   padding: 20px 5%;
