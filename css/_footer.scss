@@ -4,16 +4,31 @@ footer{
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
-    #social{
+    #company{
+        flex: 2;
         display: flex;
-        flex-direction: column;
-    }
-    #navigation{
-        display: flex;
+        #social{
+            display: flex;
+            width: 30%;
+        }
+        #navigation{
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                margin: 10px 0px;
+            }
+        }
     }
 
-    div{
-        flex: 1;
+    #copyright{
+        text-align: right;
+
+        span{
+            display: block;
+            margin-top: 20px;;
+        }
     }
 }
