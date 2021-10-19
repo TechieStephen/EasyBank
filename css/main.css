@@ -227,6 +227,8 @@ header #menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #latest .container .box {
@@ -270,13 +272,24 @@ header #menu {
     text-align: center;
   }
   #latest .container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #latest .container .box {
+    width: 48%;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 518px) {
+  #latest h2 {
+    text-align: center;
+  }
+  #latest .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #latest .container .box {
     width: 100%;

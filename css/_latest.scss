@@ -3,6 +3,7 @@
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .box{
             width: 23%;
@@ -43,8 +44,25 @@
             text-align: center;
         }
         .container{
-            justify-content: center;
-            flex-direction: column;
+            justify-content: space-between;
+            // flex-direction: column;
+    
+            .box{
+                width: 48%;
+                margin-bottom: 35px;
+            }
+        }
+    }
+    
+}
+@media (max-width:518px){
+    #latest{
+        h2{
+            text-align: center;
+        }
+        .container{
+            justify-content: space-between;
+            // flex-direction: column;
     
             .box{
                 width: 100%;
