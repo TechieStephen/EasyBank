@@ -39,8 +39,6 @@
         }
     
         .container{
-            margin-top: 50px;
-            display: flex;
             justify-content: space-between;
 
     
@@ -55,18 +53,8 @@
 }
 @media (max-width:518px){
     #why-us{
-        text-align: center;
-        h2{
-        }
-        p{
-            width: 100%;
-        }
-    
         .container{
-            margin-top: 50px;
-            display: flex;
             justify-content: center;
-
     
             .box{
                 // border: 1px solid gray;
