@@ -442,7 +442,7 @@ footer #copyright span {
   margin-top: 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1004px) {
   footer {
     text-align: center;
     -webkit-box-pack: center;
