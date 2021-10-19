@@ -25,7 +25,6 @@
 }
 
 .attribution{
-    background-color: $White;
     text-align: center;
     padding: 15px 5%;
     font-size: 15px;
@@ -45,6 +44,7 @@
           font-size: 16px;
           i{
             font-size: 25px;
+            color: $DarkBlue;
           }
         }
       }

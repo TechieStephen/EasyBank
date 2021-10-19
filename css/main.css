@@ -369,6 +369,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 100px;
 }
 
 footer #company {
@@ -541,7 +542,6 @@ footer #copyright span {
 }
 
 .attribution {
-  background-color: white;
   text-align: center;
   padding: 15px 5%;
   font-size: 15px;
@@ -573,6 +573,7 @@ footer #copyright span {
 
 .attribution ul li a i {
   font-size: 25px;
+  color: #2d314d;
 }
 
 .attribution p {
