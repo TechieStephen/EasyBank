@@ -485,7 +485,7 @@ footer #copyright span {
   width: 50%;
 }
 
-main {
+#welcome {
   padding: 0px 6%;
   min-height: 100vh;
   display: -webkit-box;
@@ -500,16 +500,16 @@ main {
   margin-top: 20px;
 }
 
-main div {
+#welcome div {
   width: 40%;
 }
 
-main div h1 {
+#welcome div h1 {
   font-weight: 300;
   font-size: 60px;
 }
 
-main div .invite {
+#welcome div .invite {
   margin-top: 20px;
 }
 
@@ -583,7 +583,7 @@ img {
     right: 0;
     width: 100%;
   }
-  main {
+  #welcome {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -594,11 +594,11 @@ img {
     min-height: 60vh;
     margin-top: 0px;
   }
-  main div {
+  #welcome div {
     width: 100%;
     margin-top: 40px;
   }
-  main div h1 {
+  #welcome div h1 {
     font-weight: 400;
     font-size: 40px;
   }

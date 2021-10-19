@@ -22,7 +22,7 @@
     z-index: 1;
     width: 50%;
 }
-main{
+#welcome{
     padding: 0px 6%;
     min-height: 100vh;
     display: flex;
@@ -102,7 +102,7 @@ img{
         right: 0;
         width: 100%;
     }
-    main{
+    #welcome{
         justify-content: center;
         align-items: flex-start;
         text-align: center;
