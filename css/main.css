@@ -28,6 +28,12 @@ a {
   color: inherit;
 }
 
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
 p {
   margin: 20px 0px;
   color: #9698a6;

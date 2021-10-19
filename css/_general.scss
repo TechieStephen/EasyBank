@@ -33,7 +33,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
+button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
 p{
     margin: 20px 0px;
     color: $GrayishBlue;
@@ -53,6 +57,7 @@ h2{
 section, footer{
     padding: 70px 6%;
 }
+
 @media (max-width:900px){
     body{
         font-size: 17px;
