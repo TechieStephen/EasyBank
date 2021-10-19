@@ -10,6 +10,7 @@
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .box{
             // border: 1px solid gray;
@@ -26,7 +27,33 @@
     }
 }
 
-@media (max-width:900px){
+
+
+@media (max-width:1004px){
+    #why-us{
+        text-align: center;
+        h2{
+        }
+        p{
+            width: 100%;
+        }
+    
+        .container{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+    
+            .box{
+                // border: 1px solid gray;
+                width: 48%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+}
+@media (max-width:518px){
     #why-us{
         text-align: center;
         h2{
@@ -40,12 +67,10 @@
             display: flex;
             justify-content: center;
 
-            flex-direction: column;
     
             .box{
                 // border: 1px solid gray;
                 width: 100%;
-                margin-bottom: 30px;
             }
         }
     }
