@@ -198,7 +198,7 @@ header #menu {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: center;
-    min-height: 60vh;
+    min-height: 85vh;
     margin-top: 0px;
   }
   #welcome div {
