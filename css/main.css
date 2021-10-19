@@ -306,13 +306,12 @@ header #menu {
     text-align: center;
   }
   #latest .container {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #latest .container .box {
     width: 100%;
-    margin-bottom: 35px;
   }
 }
 
