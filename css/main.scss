@@ -1,5 +1,6 @@
 @import "./general";
 @import "./header";
+@import "./welcome";
 @import "./why";
 @import "./latest";
 @import "./footer";
@@ -22,27 +23,7 @@
     z-index: 1;
     width: 50%;
 }
-#welcome{
-    padding: 0px 6%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 20px;
 
-    div{
-        width: 40%;
-        
-        h1{
-            font-weight: 300;
-            font-size: 60px;
-        }
-
-        .invite{
-            margin-top: 20px;
-        }
-    }
-}
 .attribution{
     text-align: center;
     padding: 20px 5%;
@@ -101,23 +82,5 @@ img{
         top: -20px;
         right: 0;
         width: 100%;
-    }
-    #welcome{
-        justify-content: center;
-        align-items: flex-start;
-        text-align: center;
-        min-height: 60vh;
-        margin-top: 0px;
-
-
-        div{
-            width: 100%;
-            margin-top: 40px;
-            
-            h1{
-                font-weight: 400;
-                font-size: 40px;
-            }
-        }
     }
 }

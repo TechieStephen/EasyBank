@@ -161,6 +161,56 @@ header #menu {
   }
 }
 
+#welcome {
+  padding: 0px 6%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#welcome div {
+  width: 40%;
+}
+
+#welcome div h1 {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+#welcome div .invite {
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  #welcome {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: center;
+    min-height: 60vh;
+    margin-top: 0px;
+  }
+  #welcome div {
+    width: 100%;
+    margin-top: 40px;
+  }
+  #welcome div h1 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+}
+
 #why-us {
   background: #f3f4f6;
 }
@@ -485,34 +535,6 @@ footer #copyright span {
   width: 50%;
 }
 
-#welcome {
-  padding: 0px 6%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 20px;
-}
-
-#welcome div {
-  width: 40%;
-}
-
-#welcome div h1 {
-  font-weight: 300;
-  font-size: 60px;
-}
-
-#welcome div .invite {
-  margin-top: 20px;
-}
-
 .attribution {
   text-align: center;
   padding: 20px 5%;
@@ -582,25 +604,6 @@ img {
     top: -20px;
     right: 0;
     width: 100%;
-  }
-  #welcome {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    text-align: center;
-    min-height: 60vh;
-    margin-top: 0px;
-  }
-  #welcome div {
-    width: 100%;
-    margin-top: 40px;
-  }
-  #welcome div h1 {
-    font-weight: 400;
-    font-size: 40px;
   }
 }
 /*# sourceMappingURL=main.css.map */
