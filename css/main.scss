@@ -25,9 +25,14 @@
 }
 
 .attribution{
+    background-color: $White;
     text-align: center;
-    padding: 20px 5%;
+    padding: 15px 5%;
     font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   
     ul{
       display: flex;
