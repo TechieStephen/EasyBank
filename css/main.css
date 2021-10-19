@@ -267,7 +267,7 @@ header #menu {
   margin: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1004px) {
   #latest h2 {
     text-align: center;
   }
