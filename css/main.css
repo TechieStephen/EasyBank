@@ -393,7 +393,6 @@ footer #container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 100px;
 }
 
 footer #container #company {
@@ -443,19 +442,28 @@ footer #container #company #social ul li a:hover svg path {
 
 footer #container #company nav {
   width: 40%;
+}
+
+footer #container #company nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-footer #container #company nav li {
-  margin: 15px 0px;
+footer #container #company nav ul li {
+  margin: 10px 0px;
+  width: 45%;
 }
 
-footer #container #company nav li a:hover {
+footer #container #company nav ul li a:hover {
   color: #31d35c;
 }
 
@@ -510,7 +518,7 @@ footer .attribution p a {
   color: #2d314d;
 }
 
-@media (max-width: 1004px) {
+@media (max-width: 1000px) {
   footer #container {
     text-align: center;
     -webkit-box-pack: center;
@@ -556,29 +564,12 @@ footer .attribution p a {
   footer #container #company #social ul li a:hover svg path {
     fill: #31d35c;
   }
-  footer #container #company #navigation {
+  footer #container #company nav {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin: 30px 0px;
   }
-  footer #container #company #navigation li {
-    margin: 0px 0px;
-    margin-bottom: 15px;
-  }
-  footer #container #company #navigation li a:hover {
-    color: #31d35c;
+  footer #container #company nav ul li {
+    width: 100%;
   }
   footer #container #copyright {
     text-align: center;
