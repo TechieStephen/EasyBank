@@ -441,7 +441,7 @@ footer #container #company #social ul li a:hover svg path {
   fill: #31d35c;
 }
 
-footer #container #company #navigation {
+footer #container #company nav {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,11 +451,11 @@ footer #container #company #navigation {
           justify-content: space-between;
 }
 
-footer #container #company #navigation li {
+footer #container #company nav li {
   margin: 15px 0px;
 }
 
-footer #container #company #navigation li a:hover {
+footer #container #company nav li a:hover {
   color: #31d35c;
 }
 
