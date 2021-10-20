@@ -40,10 +40,6 @@ p {
   line-height: 22px;
 }
 
-span {
-  color: #9698a6;
-}
-
 h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
@@ -54,6 +50,10 @@ h2 {
 
 section {
   padding: 70px 6%;
+}
+
+span, h5 {
+  color: #9698a6;
 }
 
 @media (max-width: 900px) {
@@ -309,7 +309,7 @@ header #menu {
   padding: 20px;
 }
 
-#latest .container .box div span {
+#latest .container .box div h6 {
   font-size: 13px;
 }
 
