@@ -358,6 +358,9 @@ header #menu {
 
 footer {
   background: #2d314d;
+}
+
+footer section {
   color: white;
   font-size: 16px;
   display: -webkit-box;
@@ -372,7 +375,7 @@ footer {
   margin-bottom: 100px;
 }
 
-footer #company {
+footer section #company {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
@@ -384,7 +387,7 @@ footer #company {
           align-items: center;
 }
 
-footer #company #social {
+footer section #company #social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,7 +398,7 @@ footer #company #social {
   width: 30%;
 }
 
-footer #company #social ul {
+footer section #company #social ul {
   margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,15 +411,15 @@ footer #company #social ul {
           justify-content: flex-start;
 }
 
-footer #company #social ul li {
+footer section #company #social ul li {
   margin-right: 20px;
 }
 
-footer #company #social ul li a:hover svg path {
+footer section #company #social ul li a:hover svg path {
   fill: #31d35c;
 }
 
-footer #company #navigation {
+footer section #company #navigation {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -426,19 +429,19 @@ footer #company #navigation {
           justify-content: space-between;
 }
 
-footer #company #navigation li {
+footer section #company #navigation li {
   margin: 15px 0px;
 }
 
-footer #company #navigation li a:hover {
+footer section #company #navigation li a:hover {
   color: #31d35c;
 }
 
-footer #copyright {
+footer section #copyright {
   text-align: right;
 }
 
-footer #copyright span {
+footer section #copyright span {
   display: block;
   margin-top: 30px;
 }
