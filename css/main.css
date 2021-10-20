@@ -364,7 +364,7 @@ footer {
   background: #2d314d;
 }
 
-footer section {
+footer #container {
   color: white;
   font-size: 16px;
   display: -webkit-box;
@@ -379,7 +379,7 @@ footer section {
   margin-bottom: 100px;
 }
 
-footer section #company {
+footer #container #company {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
@@ -391,7 +391,7 @@ footer section #company {
           align-items: center;
 }
 
-footer section #company #social {
+footer #container #company #social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,7 +403,7 @@ footer section #company #social {
   margin-right: 40px;
 }
 
-footer section #company #social ul {
+footer #container #company #social ul {
   margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,15 +416,15 @@ footer section #company #social ul {
           justify-content: flex-start;
 }
 
-footer section #company #social ul li {
+footer #container #company #social ul li {
   margin-right: 20px;
 }
 
-footer section #company #social ul li a:hover svg path {
+footer #container #company #social ul li a:hover svg path {
   fill: #31d35c;
 }
 
-footer section #company #navigation {
+footer #container #company #navigation {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -434,19 +434,19 @@ footer section #company #navigation {
           justify-content: space-between;
 }
 
-footer section #company #navigation li {
+footer #container #company #navigation li {
   margin: 15px 0px;
 }
 
-footer section #company #navigation li a:hover {
+footer #container #company #navigation li a:hover {
   color: #31d35c;
 }
 
-footer section #copyright {
+footer #container #copyright {
   text-align: right;
 }
 
-footer section #copyright span {
+footer #container #copyright span {
   display: block;
   margin-top: 30px;
 }
@@ -494,7 +494,7 @@ footer .attribution p a {
 }
 
 @media (max-width: 1004px) {
-  footer section {
+  footer #container {
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -504,7 +504,7 @@ footer .attribution p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer section #company {
+  footer #container #company {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -516,7 +516,7 @@ footer .attribution p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer section #company #social {
+  footer #container #company #social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -524,7 +524,7 @@ footer .attribution p a {
     width: 100%;
     margin-right: 0px;
   }
-  footer section #company #social ul {
+  footer #container #company #social ul {
     margin-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -536,10 +536,10 @@ footer .attribution p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  footer section #company #social ul li a:hover svg path {
+  footer #container #company #social ul li a:hover svg path {
     fill: #31d35c;
   }
-  footer section #company #navigation {
+  footer #container #company #navigation {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -556,17 +556,17 @@ footer .attribution p a {
             align-items: center;
     margin: 30px 0px;
   }
-  footer section #company #navigation li {
+  footer #container #company #navigation li {
     margin: 0px 0px;
     margin-bottom: 15px;
   }
-  footer section #company #navigation li a:hover {
+  footer #container #company #navigation li a:hover {
     color: #31d35c;
   }
-  footer section #copyright {
+  footer #container #copyright {
     text-align: center;
   }
-  footer section #copyright span {
+  footer #container #copyright span {
     margin-top: 30px;
   }
 }
