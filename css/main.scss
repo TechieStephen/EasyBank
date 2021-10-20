@@ -39,6 +39,14 @@ img{
     pointer-events: none;
 }
 
+@media (max-width:1024px){
+  #bg-image-desktop{
+    width: 65%;
+  }
+  #bg-mobile{
+    width: 45%;
+  }
+}
 
 @media (max-width:1004px){
     #bg-image-desktop{
