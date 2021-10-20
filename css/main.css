@@ -171,7 +171,7 @@ header #menu {
 }
 
 #welcome {
-  padding: 0px 6%;
+  padding: 70px 6%;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,7 +198,7 @@ header #menu {
   margin-top: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1004px) {
   #welcome {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -207,7 +207,7 @@ header #menu {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: center;
-    min-height: 85vh;
+    min-height: 80vh;
   }
   #welcome div {
     width: 100%;
@@ -582,7 +582,7 @@ footer .attribution p a {
   top: -110px;
   right: -180px;
   z-index: 1;
-  width: 70%;
+  width: 60%;
 }
 
 #bg-image-mobile {
@@ -595,7 +595,7 @@ footer .attribution p a {
   top: 0;
   right: -100px;
   z-index: 1;
-  width: 50%;
+  width: 40%;
 }
 
 .invite {

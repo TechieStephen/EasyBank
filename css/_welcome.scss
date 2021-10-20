@@ -1,5 +1,5 @@
 #welcome{
-    padding: 0px 6%;
+    padding: 70px 6%;
     min-height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -21,12 +21,12 @@
 }
 
 
-@media (max-width:900px){
+@media (max-width:1004px){
     #welcome{
         justify-content: center;
         align-items: flex-start;
         text-align: center;
-        min-height: 85vh;
+        min-height: 80vh;
         // margin-top: 0px;
 
 
