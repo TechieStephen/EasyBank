@@ -17,6 +17,7 @@ footer{
                 display: flex;
                 flex-direction: column;
                 width: 30%;
+                margin-right: 40px;
 
                 ul{
                     margin-top: 40px;
@@ -86,7 +87,7 @@ footer{
         }
     
         p{
-            margin: 10px;
+            margin-top: 15px;
         a{
             font-weight: bold;
             color: $DarkBlue;
@@ -97,61 +98,63 @@ footer{
 
 @media (max-width:1004px){
     footer{
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        
-        #company{
-            align-items: center;
+        section{
+            text-align: center;
             justify-content: center;
             flex-direction: column;
-            #social{
+            
+            #company{
+                align-items: center;
+                justify-content: center;
                 flex-direction: column;
-                width: 100%;
-    
-                ul{
-                    margin-top: 40px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-    
-                    li{
-                        a:hover{
-                            svg{
-                                path{
-                                    fill: $LimeGreen;
+                #social{
+                    flex-direction: column;
+                    width: 100%;
+                    margin-right: 0px;
+
+                    ul{
+                        margin-top: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+        
+                        li{
+                            a:hover{
+                                svg{
+                                    path{
+                                        fill: $LimeGreen;
+                                    }
                                 }
                             }
                         }
                     }
                 }
-            }
-            #navigation{
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                margin: 30px 0px;
-                li{
-                    margin: 0px 0px;
-                    margin-bottom: 15px;
-    
-                    a:hover{
-                        color: $LimeGreen;
+                #navigation{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 30px 0px;
+                    li{
+                        margin: 0px 0px;
+                        margin-bottom: 15px;
+        
+                        a:hover{
+                            color: $LimeGreen;
+                        }
                     }
                 }
             }
-        }
-    
-        #copyright{
-            text-align: center;
-    
-            span{
-                margin-top: 30px;
+        
+            #copyright{
+                text-align: center;
+        
+                span{
+                    margin-top: 30px;
+                }
             }
         }
-    }
-    
-    
+        
+    }    
 }

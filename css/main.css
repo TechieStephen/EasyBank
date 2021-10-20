@@ -396,6 +396,7 @@ footer section #company #social {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 30%;
+  margin-right: 40px;
 }
 
 footer section #company #social ul {
@@ -480,7 +481,7 @@ footer .attribution ul li a i {
 }
 
 footer .attribution p {
-  margin: 10px;
+  margin-top: 15px;
 }
 
 footer .attribution p a {
@@ -489,7 +490,7 @@ footer .attribution p a {
 }
 
 @media (max-width: 1004px) {
-  footer {
+  footer section {
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -499,7 +500,7 @@ footer .attribution p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer #company {
+  footer section #company {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -511,14 +512,15 @@ footer .attribution p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer #company #social {
+  footer section #company #social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
+    margin-right: 0px;
   }
-  footer #company #social ul {
+  footer section #company #social ul {
     margin-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -530,10 +532,10 @@ footer .attribution p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  footer #company #social ul li a:hover svg path {
+  footer section #company #social ul li a:hover svg path {
     fill: #31d35c;
   }
-  footer #company #navigation {
+  footer section #company #navigation {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -550,17 +552,17 @@ footer .attribution p a {
             align-items: center;
     margin: 30px 0px;
   }
-  footer #company #navigation li {
+  footer section #company #navigation li {
     margin: 0px 0px;
     margin-bottom: 15px;
   }
-  footer #company #navigation li a:hover {
+  footer section #company #navigation li a:hover {
     color: #31d35c;
   }
-  footer #copyright {
+  footer section #copyright {
     text-align: center;
   }
-  footer #copyright span {
+  footer section #copyright span {
     margin-top: 30px;
   }
 }
