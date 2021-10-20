@@ -204,7 +204,13 @@ header #menu {
   }
 }
 
-@media (max-width: 1004px) {
+@media (max-width: 1024px) {
+  #welcome div {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
   #welcome {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
