@@ -1,5 +1,5 @@
 #welcome{
-    padding: 70px 6%;
+    padding: 100px 6%;
     min-height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -7,7 +7,7 @@
     margin-top: 20px;
 
     div{
-        width: 50%;
+        width: 40%;
         
         h1{
             font-weight: 300;
@@ -19,7 +19,14 @@
         }
     }
 }
+@media (max-width:1265px){
+    #welcome{
+        div{
+            width: 50%;
+        }
+    }
 
+}
 
 @media (max-width:1004px){
     #welcome{
@@ -31,8 +38,27 @@
 
 
         div{
-            width: 100%;
-            margin-top: 40px;
+            width: 60%;
+            
+            h1{
+                font-weight: 400;
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width:1004px){
+    #welcome{
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        min-height: 75vh;
+        // margin-top: 0px;
+
+
+        div{
+            width: 60%;
             
             h1{
                 font-weight: 400;

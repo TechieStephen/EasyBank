@@ -171,7 +171,7 @@ header #menu {
 }
 
 #welcome {
-  padding: 70px 6%;
+  padding: 100px 6%;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -186,7 +186,7 @@ header #menu {
 }
 
 #welcome div {
-  width: 50%;
+  width: 40%;
 }
 
 #welcome div h1 {
@@ -196,6 +196,12 @@ header #menu {
 
 #welcome div .invite {
   margin-top: 20px;
+}
+
+@media (max-width: 1265px) {
+  #welcome div {
+    width: 50%;
+  }
 }
 
 @media (max-width: 1004px) {
@@ -210,8 +216,27 @@ header #menu {
     min-height: 75vh;
   }
   #welcome div {
-    width: 100%;
-    margin-top: 40px;
+    width: 60%;
+  }
+  #welcome div h1 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1004px) {
+  #welcome {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: center;
+    min-height: 75vh;
+  }
+  #welcome div {
+    width: 60%;
   }
   #welcome div h1 {
     font-weight: 400;
