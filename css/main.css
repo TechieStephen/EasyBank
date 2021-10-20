@@ -55,7 +55,7 @@ section {
   padding: 70px 6%;
 }
 
-span, h5 {
+span {
   color: #9698a6;
 }
 
@@ -313,8 +313,9 @@ header #menu {
   padding-bottom: 30px;
 }
 
-#latest .container .box div h6 {
+#latest .container .box div h4 {
   font-size: 13px;
+  color: #9698a6;
 }
 
 #latest .container .box div a {
