@@ -60,6 +60,39 @@ footer{
             }
         }
     }
+    
+    .attribution{
+        background: $White;
+        text-align: center;
+        padding: 15px 5%;
+        font-size: 15px;
+        width: 100%;
+    
+        ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        li{
+            margin: 0px 10px;
+            a{
+            font-size: 16px;
+            i{
+                font-size: 25px;
+                color: $DarkBlue;
+            }
+            }
+        }
+        }
+    
+        p{
+            margin: 10px;
+        a{
+            font-weight: bold;
+            color: $DarkBlue;
+        }
+        }
+    }
 }
 
 @media (max-width:1004px){

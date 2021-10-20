@@ -446,6 +446,48 @@ footer section #copyright span {
   margin-top: 30px;
 }
 
+footer .attribution {
+  background: white;
+  text-align: center;
+  padding: 15px 5%;
+  font-size: 15px;
+  width: 100%;
+}
+
+footer .attribution ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .attribution ul li {
+  margin: 0px 10px;
+}
+
+footer .attribution ul li a {
+  font-size: 16px;
+}
+
+footer .attribution ul li a i {
+  font-size: 25px;
+  color: #2d314d;
+}
+
+footer .attribution p {
+  margin: 10px;
+}
+
+footer .attribution p a {
+  font-weight: bold;
+  color: #2d314d;
+}
+
 @media (max-width: 1004px) {
   footer {
     text-align: center;
@@ -542,50 +584,6 @@ footer section #copyright span {
   right: -100px;
   z-index: 1;
   width: 50%;
-}
-
-.attribution {
-  text-align: center;
-  padding: 15px 5%;
-  font-size: 15px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.attribution ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.attribution ul li {
-  margin: 0px 10px;
-}
-
-.attribution ul li a {
-  font-size: 16px;
-}
-
-.attribution ul li a i {
-  font-size: 25px;
-  color: #2d314d;
-}
-
-.attribution p {
-  margin: 10px;
-}
-
-.attribution p a {
-  font-weight: bold;
-  color: #2d314d;
 }
 
 .invite {
