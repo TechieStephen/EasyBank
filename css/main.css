@@ -224,26 +224,6 @@ header #menu {
   }
 }
 
-@media (max-width: 1004px) {
-  #welcome {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    text-align: center;
-    min-height: 75vh;
-  }
-  #welcome div {
-    width: 60%;
-  }
-  #welcome div h1 {
-    font-weight: 400;
-    font-size: 40px;
-  }
-}
-
 #why-us {
   background: #f3f4f6;
 }
@@ -278,7 +258,7 @@ header #menu {
   margin: 0;
 }
 
-@media (max-width: 1004px) {
+@media (max-width: 1024px) {
   #why-us {
     text-align: center;
   }
