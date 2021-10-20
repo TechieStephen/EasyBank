@@ -186,7 +186,7 @@ header #menu {
 }
 
 #welcome div {
-  width: 40%;
+  width: 50%;
 }
 
 #welcome div h1 {
@@ -207,7 +207,7 @@ header #menu {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: center;
-    min-height: 80vh;
+    min-height: 75vh;
   }
   #welcome div {
     width: 100%;
@@ -615,7 +615,7 @@ img {
   pointer-events: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1004px) {
   #bg-image-desktop {
     display: none;
   }
