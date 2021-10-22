@@ -222,11 +222,17 @@ header #menu {
     min-height: 75vh;
   }
   #welcome div {
-    width: 60%;
+    width: 70%;
   }
   #welcome div h1 {
     font-weight: 400;
     font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  #welcome div {
+    width: 90%;
   }
 }
 
