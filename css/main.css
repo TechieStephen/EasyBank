@@ -236,6 +236,12 @@ header #menu {
   }
 }
 
+@media (max-width: 380px) {
+  #welcome div {
+    width: 100%;
+  }
+}
+
 #why-us {
   background: #f3f4f6;
 }
